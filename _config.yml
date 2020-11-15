@@ -8,7 +8,7 @@ subtitle: 自律 自由
 description: 生来为了体验，记录生活点滴
 keywords: 博客 blog
 author: 陈越
-language: zh-CN
+language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
@@ -112,3 +112,10 @@ deploy:
   type: git
   repo: git@139.224.210.77:/home/git/project.git
   branch: master
+
+symbols_count_time:
+  symbols: true                # 文章字数统计
+  time: true                   # 文章阅读时长
+  total_symbols: false          # 站点总字数统计
+  total_time: false             # 站点总阅读时长
+  exclude_codeblock: false     # 排除代码字数统计
